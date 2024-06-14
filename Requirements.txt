@@ -1,0 +1,54 @@
+### Functional Requirements
+1. **User Account Management**
+   - Users can register using email and password.
+   - Users can log in to their account.
+   - Users can reset their password.
+   - Users can edit their profile details.
+
+2. **Event Management**
+   - Users can create an event with details such as title, description, date, time, and location.
+   - Users can edit or delete their events.
+   - Users can browse upcoming and past events.
+   - Users can join or RSVP for future events.
+   - Users can watch a live event.
+   - Users can search for events by keywords, categories, date, or location.
+   - Users can share event details via social media or direct links.
+
+3. **Event Video**
+   - Users can whatch and access the recorded events.
+
+4. **Advanced Features**
+   - Users can search for events using voice commands or text input.
+   - Users can receive notifications for event updates or reminders.
+   - Users can interact in a live chat during an event.
+   - Users can rate and review events they attended.
+
+### Non-Functional Requirements
+1. **Performance**
+   - The application should ensure minimal latency in user interactions and event streaming.
+   - Scalable architecture to support a large number of concurrent users, especially during popular events.
+   - ABS (Adaptive bitrate streaming) in streaming service
+
+2. **Usability**
+   - Intuitive user interface suitable for multiple resolutions and devices (responsive design).
+   - Voice command functionality should be accurately recognized and user-friendly.
+
+3. **Security**
+   - Implementation of secure authentication and authorization practices.
+   - Data encryption for sensitive user information and secure transmission over the network.
+   - Authentication with Oauth
+
+4. **Compliance**
+   - Adherence to data protection regulations such as GDPR or similar, depending on the geographical location of the users.
+
+### Extended Requirements
+1. **Analytics**
+   - Collect data on user engagement, event popularity, and user demographics for analytics.
+   - Use analytics to provide personalized event recommendations and targeted notifications.
+   - Dashboard for event organizers to view metrics about their events, like attendance numbers, user ratings, etc.
+
+2. **Accessibility**
+   - Ensure the application is accessible according to WCAG (Web Content Accessibility Guidelines) to accommodate users with disabilities.
+
+3. **Integration**
+   - Provide APIs for third-party integrations, such as calendar apps or social media platforms, enhancing the application's functionality and user experience.
