@@ -5,13 +5,20 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0857BF2D-CDC8-4773-862C-11D71342D74F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B061CCF4-7211-4DD0-A18A-29DFE4A4DE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{B061CCF4-7211-4DD0-A18A-29DFE4A4DE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5A05F57D-CC82-4A6E-BE37-18402DEDFBC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5A05F57D-CC82-4A6E-BE37-18402DEDFBC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{EBE7F0B1-A9C3-4761-A40C-FEA0EFF83306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{EBE7F0B1-A9C3-4761-A40C-FEA0EFF83306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{86F88398-DCFC-4A66-80F1-163499135905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{86F88398-DCFC-4A66-80F1-163499135905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{948EFFF6-5765-4639-8FBD-219693CADA16}"
+	ProjectSection(SolutionItems) = preProject
+		Eventify.drawio = Eventify.drawio
+		Requirements.txt = Requirements.txt
+		Eventify.png = Eventify.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
